@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap');
+
+body{
+    background-color:#ff9f19;
+    color: #fff;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.question-body{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    border: 10px solid #07e1e8;
+    padding: 28px 0 28px 0;
+    background-color: #fff;
+    color: #000;
+    font-size: 140%;
+    text-align: center;
+}   
+
+.option{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+    background-color: #fff;
+    color: #000;
+    margin: 10px;
+    padding: 0px;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 125%;
+}
+
+li:hover{
+    background-color: rgb(13, 214, 80);
+    cursor: pointer;
+    color: #fff;
+}
